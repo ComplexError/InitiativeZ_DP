@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{itemTea:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ambient_hazards:items/drinks/tea"
+    }
+}

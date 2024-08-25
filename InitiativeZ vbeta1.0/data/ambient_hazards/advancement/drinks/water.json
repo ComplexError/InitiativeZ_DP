@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "components": {
+              "minecraft:potion_contents": "minecraft:water"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "ambient_hazards:items/drinks/water"
+    }
+} 

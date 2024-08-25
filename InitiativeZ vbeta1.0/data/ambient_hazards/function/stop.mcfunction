@@ -1,0 +1,4 @@
+schedule clear ambient_hazards:timer1
+schedule clear ambient_hazards:timer2
+schedule clear ambient_hazards:timer3
+schedule clear ambient_hazards:timer4

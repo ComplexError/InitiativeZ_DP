@@ -1,0 +1,22 @@
+{
+    "values": [
+      "minecraft:air",
+      "#minecraft:candles",
+      "minecraft:tripwire",
+      "minecraft:tripwire_hook",
+      "#minecraft:fence_gates",
+      "#minecraft:fences",
+      "#minecraft:all_signs",
+      "#minecraft:all_hanging_signs",
+      "#minecraft:banners",
+      "#minecraft:buttons",
+      "#minecraft:cave_vines",
+      "#minecraft:ceiling_hanging_signs",
+      "minecraft:vine",
+      "#minecraft:flower_pots",
+      "#minecraft:doors",
+      "#minecraft:crops",
+      "#minecraft:portals",
+      "#minecraft:rails"
+    ]
+  }
