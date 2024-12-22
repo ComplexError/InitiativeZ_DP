@@ -8,6 +8,9 @@ execute if score System GlobalTips matches 3 run tellraw @a { "color": "gold", "
 execute if score System GlobalTips matches 4 run tellraw @a { "color": "gold", "text": "TIP: THE TWO PIECE IS REALLLLLL!"}
 execute if score System GlobalTips matches 5 run tellraw @a { "color": "gold", "text": "TIP: Do you feel them? Under your skin? Get them out. GET THEM OUT."}
 execute if score System GlobalTips matches 6 run tellraw @a { "color": "gold", "text": "TIP: Can your agendas change the world?"}
+execute if score System GlobalTips matches 7 run tellraw @a { "color": "gold", "text": "TIP: Can your agendas change the world?"}
+execute if score System GlobalTips matches 8 run tellraw @a { "color": "gold", "text": "TIP: Can your agendas change the world?"}
+execute if score System GlobalTips matches 9 run tellraw @a { "color": "gold", "text": "TIP: Can your agendas change the world?"}
 
 ## --- TIP LOGIC ---
 scoreboard players add System GlobalTips 1
