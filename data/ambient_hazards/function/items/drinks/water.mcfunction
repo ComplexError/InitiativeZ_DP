@@ -9,5 +9,9 @@ execute as @s[scores={AmbientH_Scale=..0}] at @s run scoreboard players remove @
 execute as @s[scores={AmbientH_Scale=1..799}] at @s run scoreboard players remove @s AmbientH_Scale 100
 execute as @s[scores={AmbientH_Scale=800..}] at @s run scoreboard players remove @s AmbientH_Scale 250
 
+## ---- Hydration ----
+execute as @s[scores={AmbientH_Hydration=0..}] at @s run scoreboard players set @s AmbientH_Hydration 20
+execute as @a[scores={AmbientH_Hydration=0..}] at @s run function ambient_hazards:hydration/meter
+
 ## ---- Schedule revoke ----
 execute as @s run scoreboard players set @s AmbientH_DrinkWater 10

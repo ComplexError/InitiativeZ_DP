@@ -1,5 +1,12 @@
 ## Ailments
 
+## ---- Dehydration ----
+
+## Dialogue
+
+## -- Effects --
+execute as @a[scores={AmbientH_Hydration=..0}] run effect give @s nausea 2 0 true
+
 ## ---- Heat ----
 
 ## Dialogue

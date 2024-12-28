@@ -28,8 +28,8 @@ team add Players
 team modify Players friendlyFire false
 
 ## ---- Master Panel ----
-function legitimoose:master
-schedule function ambient_hazards:master 2s
+schedule function ambient_hazards:master 1s
+schedule function players:master 2s
 schedule function dungeons:master 3s
 schedule function locations:master 4s
 schedule function entities:master 5s

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.15
+          }
+        ],
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:zombie"
+          },
+          "type": {
+            "is_direct": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "players:mechanics/infected/infection"
+  }
+}

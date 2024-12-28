@@ -6,7 +6,7 @@
         "player": [
           {
             "condition": "minecraft:random_chance",
-            "chance": 0.15
+            "chance": 0.1
           }
         ],
         "damage": {
@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "entities:mechanics/infected/infection"
+    "function": "players:mechanics/bleeding/bleeding"
   }
 }
