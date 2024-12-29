@@ -12,7 +12,7 @@ scoreboard players set System GlobalTips 0
 scoreboard objectives add Location_Cooldown dummy
 
 ## ---- Master Panel ----
-function locations:tiprefill_timer
+schedule function locations:tiprefill_timer 10s
 function locations:2s_timer
 
 tellraw @a { "color": "#c4aa02", "text": "- InitiativeZ: Towns & Cities - Active"}

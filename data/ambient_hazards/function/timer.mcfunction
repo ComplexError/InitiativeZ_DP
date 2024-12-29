@@ -57,8 +57,8 @@ execute as @a[scores={AmbientH_Scale=0..100}] at @s if biome ~ ~ ~ #ambient_haza
 
 ## --- Drinks ---
 
-## - Dirnk Water -
-execute as @a[scores={AmbientH_DrinkWater=1..}] at @s run function ambient_hazards:items/drinks/reset_water
+## - Drink Water -
+execute as @a[scores={AmbientH_DrinkWater=1..}] at @s run scoreboard players remove @s AmbientH_DrinkWater 1
 
 ## -- Create Tea --
 execute as @e[type=item,nbt={Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:water"}}}}] at @s if block ~ ~-0.2 ~ minecraft:campfire[lit=true] if entity @e[type=item,distance=..1,limit=5,sort=nearest,nbt={Item:{id:"minecraft:sweet_berries",count:5}}] run function ambient_hazards:items/drinks/craft_tea
