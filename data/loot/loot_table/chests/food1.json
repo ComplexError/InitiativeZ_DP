@@ -14,6 +14,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 1
                 }
               }
@@ -31,6 +33,7 @@
                   "minecraft:custom_data": "{itemCrack:true}",
                   "rarity": "uncommon",
                   "minecraft:max_stack_size": 1,
+                  "hide_tooltip": {},
                   "hide_additional_tooltip": {},
                   "minecraft:consumable": {
                     "consume_seconds": 0,
@@ -72,6 +75,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 2
                 }
               }
@@ -85,6 +90,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 8
                 }
               }
@@ -98,6 +105,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 3
                 }
               }
@@ -111,6 +120,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 4
                 }
               }
@@ -124,6 +135,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 5
                 }
               }
@@ -137,6 +150,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 3
                 }
               }
@@ -150,6 +165,8 @@
               {
                 "function": "minecraft:set_components",
                 "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
                   "minecraft:max_stack_size": 2
                 }
               }

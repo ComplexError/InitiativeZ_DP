@@ -1,4 +1,3 @@
-schedule function loot:30timer 30s
 
 ## -- Drunkness Reduction --
 execute as @a[scores={Loot_Drunkness=1..}] at @s run function loot:items/drinks/reset_beer

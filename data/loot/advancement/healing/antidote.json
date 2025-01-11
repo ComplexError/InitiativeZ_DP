@@ -12,7 +12,7 @@
       }
     },
     "rewards": {
-      "function": "entities:mechanics/infected/cure_plague"
+      "function": "players:mechanics/infected/cure_plague"
     }
   }
   

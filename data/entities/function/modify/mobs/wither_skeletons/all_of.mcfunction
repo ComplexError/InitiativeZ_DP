@@ -1,0 +1,9 @@
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=3..4}] run function more_mobs:wither_skeleton/goggles
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=5..6}] run function more_mobs:wither_skeleton/steve
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=7..9}] run function more_mobs:wither_skeleton/ornate
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=10}] run function more_mobs:wither_skeleton/burning
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=11..12}] run function more_mobs:wither_skeleton/burned
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=13..15}] run function more_mobs:wither_skeleton/magma_1
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=16..18}] run function more_mobs:wither_skeleton/magma_2
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=19}] run function more_mobs:wither_skeleton/king
+execute as @s[type=minecraft:wither_skeleton,tag=!ts.mm.parsed,scores={ts.mm.random=20}] run function more_mobs:wither_skeleton/demon

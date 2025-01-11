@@ -2,7 +2,6 @@
 
 ## -- Essential Features --
 scoreboard objectives add Loot_Drunkness dummy
-scoreboard objectives add Loot_Death deathCount
 scoreboard objectives add Loot_Sugar dummy
 
 ## -- Mechanic Cooldowns --

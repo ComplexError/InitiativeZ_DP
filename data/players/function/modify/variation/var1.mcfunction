@@ -1,0 +1,16 @@
+attribute @s minecraft:armor base set 1.0
+attribute @s minecraft:attack_speed base set 3.0
+attribute @s minecraft:attack_damage base set 2.0
+attribute @s minecraft:attack_knockback base set 0.5
+attribute @s minecraft:fall_damage_multiplier base set 1.1
+attribute @s minecraft:jump_strength base set 0.5
+attribute @s minecraft:knockback_resistance base set 0.2
+attribute @s minecraft:movement_speed base set 0.09
+attribute @s minecraft:movement_efficiency base set -0.1
+attribute @s minecraft:oxygen_bonus base set 0.1
+attribute @s minecraft:safe_fall_distance base set 5.0
+attribute @s minecraft:scale base set 1.1
+attribute @s minecraft:sneaking_speed base set 0.35
+attribute @s minecraft:step_height base set 0.8
+attribute @s minecraft:sweeping_damage_ratio base set 0.5
+attribute @s minecraft:water_movement_efficiency base set 0.1

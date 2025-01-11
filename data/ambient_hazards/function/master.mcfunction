@@ -5,7 +5,6 @@ scoreboard objectives add AmbientH_Scale dummy
 scoreboard objectives add AmbientH_Wetness dummy
 scoreboard objectives add AmbientH_Dialogue dummy
 scoreboard objectives add AmbientH_Hydration dummy
-scoreboard objectives add AmbientH_Death deathCount
 
 ## -- Mechanic Cooldowns --
 scoreboard objectives add AmbientH_DrinkWater dummy

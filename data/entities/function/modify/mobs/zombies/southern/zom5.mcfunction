@@ -1,0 +1,2 @@
+data merge entity @s {Health:12f,attributes:[{base:12.0,id:"max_health"},{base:0.4,id:"movement_speed"},{base:1.5,id:"attack_damage"},{base:5d,id:"follow_range"},{base:0,id:"burning_time"},{base:0.9,id:"scale"}]}
+tag @s add Southern

@@ -1,0 +1,1 @@
+execute as @a[scores={Master_Death=1}] run scoreboard players reset @s Master_Death

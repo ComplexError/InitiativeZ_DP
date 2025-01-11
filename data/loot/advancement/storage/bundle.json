@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "predicates": {
+              "minecraft:custom_data": "{itemBundle:true}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "players:healkit_ui/player/teleport"
+    }
+}

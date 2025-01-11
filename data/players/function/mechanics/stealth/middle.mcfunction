@@ -1,0 +1,2 @@
+data modify entity @n[type=minecraft:zombie,distance=..20,tag=!entity.range.edit] attributes[{id:"follow_range"}].base set value 60.0
+tag @n[type=minecraft:zombie,distance=..20,tag=!entity.range.edit] add entity.range.edit

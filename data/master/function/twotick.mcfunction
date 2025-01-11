@@ -4,7 +4,7 @@ schedule function master:twotick 2t
 execute as @a[scores={Master_Death=1..}] run function master:death/death
 
 ## -- PvE Team --
-team join Players @a
+#team join Players @a
 
 ## --- RNG ---
 

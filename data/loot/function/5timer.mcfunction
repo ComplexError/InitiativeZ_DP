@@ -1,7 +1,5 @@
-schedule function loot:5timer 5s
-
 ## --- Death ---
-execute as @a[scores={Loot_Death=1..}] run function loot:death/reset
+# Death now handled by master directory. Points to [function loot:death/reset]
 
 ## -- Craft Beer --
 # TEMPORARY

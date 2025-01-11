@@ -5,7 +5,7 @@ execute as @s[scores={AmbientH_Wetness=6000..}] run scoreboard players remove @s
 execute as @s[scores={AmbientH_Wetness=8000..}] run scoreboard players remove @s AmbientH_Scale 3
 
 ## ---- Drip particles ----
-execute as @a[scores={AmbientH_Wetness=1000..2999}] at @s run particle falling_water ~ ~0.3 ~ 0.2 0.2 0.2 0 3 force
-execute as @a[scores={AmbientH_Wetness=3000..5999}] at @s run particle falling_water ~ ~0.5 ~ 0.2 0.2 0.2 0 6 force
-execute as @a[scores={AmbientH_Wetness=6000..8999}] at @s run particle falling_water ~ ~0.7 ~ 0.2 0.4 0.2 0 9 force
-execute as @a[scores={AmbientH_Wetness=9000..}] at @s run particle falling_water ~ ~1 ~ 0.2 0.4 0.2 0 12 force
+execute as @s[scores={AmbientH_Wetness=1000..2999}] at @s unless block ~ ~ ~ water run particle falling_water ~ ~0.3 ~ 0.2 0.2 0.2 0 3 force
+execute as @s[scores={AmbientH_Wetness=3000..5999}] at @s unless block ~ ~ ~ water run particle falling_water ~ ~0.5 ~ 0.2 0.2 0.2 0 6 force
+execute as @s[scores={AmbientH_Wetness=6000..8999}] at @s unless block ~ ~ ~ water run particle falling_water ~ ~0.7 ~ 0.2 0.4 0.2 0 9 force
+execute as @s[scores={AmbientH_Wetness=9000..}] at @s unless block ~ ~ ~ water run particle falling_water ~ ~1 ~ 0.2 0.4 0.2 0 12 force

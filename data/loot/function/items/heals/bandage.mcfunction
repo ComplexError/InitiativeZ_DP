@@ -1,1 +1,1 @@
-give @p paper[custom_name='"Bandage"',rarity="common",custom_data={itemBandage:true},consumable={consume_seconds:1,animation:"crossbow",sound:"item.crossbow.loading_start",has_consume_particles:false,on_consume_effects:[{type:"minecraft:apply_effects",effects:[{id:"minecraft:regeneration",amplifier:4,duration:5,show_particles:0b,show_icon:0b,ambient:0b}],probability:1}]}] 1
+loot give @s loot loot:items/bandage

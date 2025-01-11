@@ -1,0 +1,2 @@
+execute as @s[type=minecraft:stray,tag=!ts.mm.parsed,scores={ts.mm.random=14..17}] run function more_mobs:stray/creepy
+execute as @s[type=minecraft:stray,tag=!ts.mm.parsed,scores={ts.mm.random=11..13}] run function more_mobs:stray/queen

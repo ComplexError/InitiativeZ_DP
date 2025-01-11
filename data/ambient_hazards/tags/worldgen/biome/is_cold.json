@@ -12,6 +12,12 @@
     "minecraft:snowy_beach",
     "minecraft:snowy_plains",
     "minecraft:snowy_slopes",
-    "minecraft:snowy_taiga"
+    "minecraft:snowy_taiga",
+    "regions:tundra",
+    "regions:snowy_maple_forest",
+    "regions:cold_shrubland",
+    "regions:forested_highlands",
+    "regions:pine_forest",
+    "regions:temperate_highlands"
   ]
 }

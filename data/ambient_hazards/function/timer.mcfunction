@@ -1,10 +1,9 @@
-schedule function ambient_hazards:timer 1s
 function ambient_hazards:effects/ailments
 function ambient_hazards:effects/illness1
 
 ## -- Death --
 
-execute as @a[scores={AmbientH_Death=1..}] run function ambient_hazards:effects/death
+# handled my Master directory, points to [function ambient_hazards:effects/death]
 
 ## ---- Hot & Cold ----
 

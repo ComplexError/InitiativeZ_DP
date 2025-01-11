@@ -1,0 +1,43 @@
+{
+    "carvers": [],
+    "downfall": 0,
+    "effects": {
+        "fog_color": 13494015,
+        "mood_sound": {
+            "block_search_extent": 8,
+            "offset": 2,
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000
+        },
+        "sky_color": 11653631,
+        "water_color": 4159204,
+        "water_fog_color": 329011
+    },
+    "features": [],
+    "has_precipitation": false,
+    "spawn_costs": {},
+    "spawners": {
+        "ambient": [],
+        "axolotls": [],
+        "creature": [],
+        "misc": [],
+        "monster": [
+            {
+                "type": "minecraft:zombie",
+                "maxCount": 4,
+                "minCount": 4,
+                "weight": 95
+            },
+            {
+                "type": "minecraft:zombie_villager",
+                "maxCount": 1,
+                "minCount": 1,
+                "weight": 5
+            }
+        ],
+        "underground_water_creature": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "temperature": 1
+}

@@ -19,7 +19,7 @@ gamerule naturalRegeneration false
 time set 12500
 
 ## -- Mechanic Cooldowns --
-scoreboard objectives add Master_Death dummy
+scoreboard objectives add Master_Death deathCount
 scoreboard objectives add Master_ZombieKills dummy
 scoreboard objectives add Master_Rewards dummy
 scoreboard objectives add Master_RNG dummy
@@ -37,5 +37,12 @@ schedule function loot:master 6s
 
 schedule function master:twotick 8s
 schedule function master:fourtick 8s
+schedule function master:fivetick 8s
+schedule function master:1timer 8s
+schedule function master:5timer 8s
+schedule function master:10timer 8s
+schedule function master:20timer 8s
+schedule function master:30timer 8s
+schedule function master:60timer 8s
 
 tellraw @a { "color": "#3d8c00", "bold": true, "text": "{ InitiativeZ: Master - Active }"}
