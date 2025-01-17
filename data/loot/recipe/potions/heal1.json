@@ -19,6 +19,12 @@
         "minecraft:hide_additional_tooltip": {},
         "minecraft:potion_contents": {
           "potion": "minecraft:healing"
+        },
+        "minecraft:use_remainder": {
+          "id": "minecraft:glass_bottle",
+          "components": {
+            "minecraft:custom_data": "{itemTrash:true}"
+          }
         }
       }
     }

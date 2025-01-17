@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "type_specific": {
+            "type": "minecraft:player",
+            "input": {
+              "sneak": true
+            }
+          },
+          "targeted_entity": {
+            "type": "minecraft:pig"
+          }
+        },
+        "item": {
+          "items": "minecraft:red_dye"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "players:mechanics/coop_bandage"
+  }
+}

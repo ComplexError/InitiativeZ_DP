@@ -1,0 +1,1 @@
+execute as @e[tag=entity.ignore.kill] at @s run tp ~ -1000 ~

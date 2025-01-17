@@ -1,34 +1,322 @@
 {
     "pools": [
       {
-        "rolls": 3,
+        "rolls": {
+        "type": "minecraft:uniform",
+        "min": 4,
+        "max": 6
+        },
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:wooden_axe",
-            "weight": 2,
+            "name": "minecraft:wooden_sword",
+            "weight": 10,
             "functions": [
               {
-                "function": "minecraft:set_count",
-                "count": 1,
-                "add": false
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "weight": 4,
+            "functions": [
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 9,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.2,
+                  "max": 0.6
+                }
               }
             ]
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:arrow",
-            "weight": 3
+            "weight": 25,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_axe",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.2,
+                  "max": 0.5
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.3,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.2,
+                  "max": 0.7
+                }
+              }
+            ]
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:leather_leggings",
-            "weight": 1
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.3,
+                  "max": 0.7
+                }
+              }
+            ]
           },
           {
             "type": "minecraft:item",
             "name": "minecraft:leather_boots",
-            "weight": 1
+            "weight": 10,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.1,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_helmet",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:protection": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {},
+                  "minecraft:item_name": "{\"text\":\"Studded Leather Cap\",\"color\":\"yellow\",\"italic\":false}",
+                  "minecraft:enchantment_glint_override": false,
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:shaper",
+                    "show_in_tooltip": false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_chestplate",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:protection": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {},
+                  "minecraft:item_name": "{\"text\":\"Studded Leather Tunic\",\"color\":\"yellow\",\"italic\":false}",
+                  "minecraft:enchantment_glint_override": false,
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:shaper",
+                    "show_in_tooltip": false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.3,
+                  "max": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_leggings",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:protection": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {},
+                  "minecraft:item_name": "{\"text\":\"Studded Leather Pants\",\"color\":\"yellow\",\"italic\":false}",
+                  "minecraft:enchantment_glint_override": false,
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:shaper",
+                    "show_in_tooltip": false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.3,
+                  "max": 0.7
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:leather_boots",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 1
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "uncommon",
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:protection": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {},
+                  "minecraft:item_name": "{\"text\":\"Studded Leather Boots\",\"color\":\"yellow\",\"italic\":false}",
+                  "minecraft:enchantment_glint_override": false,
+                  "minecraft:trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:shaper",
+                    "show_in_tooltip": false
+                  }
+                }
+              },
+              {
+                "function": "minecraft:set_damage",
+                "damage": {
+                  "type": "minecraft:uniform",
+                  "min": 0.4,
+                  "max": 0.8
+                }
+              }
+            ]
           }
         ]
       }

@@ -14,7 +14,7 @@ execute as @a[predicate=!ambient_hazards:underground] at @s if biome ~ ~ ~ #ambi
 execute as @a[predicate=ambient_hazards:underground] run function ambient_hazards:wetness/wetness_underground
 
 ## -- Wetness -- 
-execute as @a[scores={AmbientH_Wetness=1..}] at @s run function ambient_hazards:wetness/wet
+execute as @a[scores={AmbientH_Wetness=1..},gamemode=adventure] at @s run function ambient_hazards:wetness/wet
 
 ## --- Biome Checker ---
 

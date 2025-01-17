@@ -1,4 +1,4 @@
-## --- Resets Player Temp after death
+## --- Resets Player ---
 scoreboard players reset @s Loot_Drunkness
 scoreboard players reset @s Master_ZombieKills
 scoreboard players reset @s Master_Rewards

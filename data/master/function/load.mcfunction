@@ -8,15 +8,16 @@
 ## ---- System Architecture ----
 
 ## -- Essential Features --
-gamerule doMobSpawning false
+gamerule doMobSpawning true
 gamerule mobGriefing false
 gamerule doFireTick false
 gamerule doImmediateRespawn true
-gamerule doDaylightCycle false
+gamerule doDaylightCycle true
 gamerule keepInventory true
 gamerule naturalRegeneration false
 
-time set 12500
+time set day
+#time set 12500
 
 ## -- Mechanic Cooldowns --
 scoreboard objectives add Master_Death deathCount
@@ -39,10 +40,13 @@ schedule function master:twotick 8s
 schedule function master:fourtick 8s
 schedule function master:fivetick 8s
 schedule function master:1timer 8s
+schedule function master:2timer 10s
 schedule function master:5timer 8s
 schedule function master:10timer 8s
 schedule function master:20timer 8s
 schedule function master:30timer 8s
 schedule function master:60timer 8s
+schedule function master:120timer 16s
+schedule function master:240timer 8s
 
 tellraw @a { "color": "#3d8c00", "bold": true, "text": "{ InitiativeZ: Master - Active }"}

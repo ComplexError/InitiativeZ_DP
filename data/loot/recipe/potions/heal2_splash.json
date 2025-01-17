@@ -20,6 +20,7 @@
   "result": {
     "id": "minecraft:splash_potion",
     "components": {
+      "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Splash Potion of Healing II\"}]",
       "minecraft:item_name": "{\"translate\":\"Splash Potion of Healing II\",\"color\":\"white\",\"italic\":false}",
       "minecraft:lore": [
         "[ {\"translate\":\"Heal for 4 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"

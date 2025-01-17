@@ -60,7 +60,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:green_dye",
+          "name": "minecraft:lime_dye",
           "weight": 10,
           "functions": [
             {
@@ -96,18 +96,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:milk_bucket",
+          "name": "minecraft:potion",
           "weight": 15,
           "functions": [
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Antidote\"}]",
                 "minecraft:item_name": "{\"translate\":\"Antidote\",\"color\":\"white\",\"italic\":false}",
                 "minecraft:lore": [
                   "[{\"translate\":\"Cures the Plague\",\"color\":\"blue\",\"italic\": false}]"
                 ],
                 "minecraft:custom_data": "{itemAntidote:true}",
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:thick",
+                  "custom_color": 13565706
+                }
               }
             }
           ]

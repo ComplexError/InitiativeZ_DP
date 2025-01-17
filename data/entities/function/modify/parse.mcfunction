@@ -8,3 +8,4 @@ execute as @s[scores={entity.random=0..}] run function entities:modify/mobs/glob
 
 ## -- Tag for loop break --
 tag @s[scores={entity.random=0..}] add entity.parsed
+tag @s add shuffled

@@ -45,6 +45,7 @@
             }
           ]
         },
+        "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Splash Potion of Healing III\"}]",
         "item_name": "{\"translate\":\"Splash Potion of Healing III\",\"color\":\"white\",\"italic\":false}",
         "lore": ["[{\"translate\":\"Heal for 8 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"],
         "minecraft:hide_additional_tooltip": {}

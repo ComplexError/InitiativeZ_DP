@@ -8,21 +8,6 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:cod",
-            "weight": 8,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "hide_tooltip": {},
-                  "hide_additional_tooltip": {},
-                  "minecraft:max_stack_size": 1
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:sugar",
             "weight": 2,
             "functions": [
@@ -62,7 +47,6 @@
                       }
                     ]
                   }
-
                 }
               }
             ]
@@ -84,23 +68,8 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:beetroot",
-            "weight": 16,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "hide_tooltip": {},
-                  "hide_additional_tooltip": {},
-                  "minecraft:max_stack_size": 8
-                }
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:wheat",
-            "weight": 4,
+            "name": "minecraft:carrot",
+            "weight": 20,
             "functions": [
               {
                 "function": "minecraft:set_components",
@@ -129,6 +98,40 @@
           },
           {
             "type": "minecraft:item",
+            "name": "minecraft:cod",
+            "weight": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
+                  "minecraft:max_stack_size": 1
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:beetroot",
+            "weight": 16,
+            "functions": [
+              {
+                "function": "minecraft:limit_count",
+                "limit": 2
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "hide_tooltip": {},
+                  "hide_additional_tooltip": {},
+                  "minecraft:max_stack_size": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
             "name": "minecraft:potato",
             "weight": 8,
             "functions": [
@@ -137,15 +140,15 @@
                 "components": {
                   "hide_tooltip": {},
                   "hide_additional_tooltip": {},
-                  "minecraft:max_stack_size": 5
+                  "minecraft:max_stack_size": 4
                 }
               }
             ]
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:carrot",
-            "weight": 20,
+            "name": "minecraft:wheat",
+            "weight": 4,
             "functions": [
               {
                 "function": "minecraft:set_components",

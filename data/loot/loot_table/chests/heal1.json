@@ -65,6 +65,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Splash Potion of Healing II\"}]",
                 "minecraft:item_name": "{\"translate\":\"Splash Potion of Healing II\",\"color\":\"white\",\"italic\":false}",
                 "minecraft:lore": [
                   "[{\"translate\":\"Heal for 4 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"
@@ -106,11 +107,18 @@
             {
               "function": "minecraft:set_components",
               "components": {
+                "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Potion of Healing II\"}]",
                 "minecraft:item_name": "{\"translate\":\"Potion of Healing II\",\"color\":\"white\",\"italic\":false}",
                 "minecraft:lore": [
                   "[{\"translate\":\"Heal for 4 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"
                 ],
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle",
+                  "components": {
+                    "minecraft:custom_data": "{itemTrash:true}"
+                  }
+                }
               }
             },
             {
@@ -130,7 +138,13 @@
                 "minecraft:lore": [
                   "[{\"translate\":\"Heal for 2 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"
                 ],
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:use_remainder": {
+                  "id": "minecraft:glass_bottle",
+                  "components": {
+                    "minecraft:custom_data": "{itemTrash:true}"
+                  }
+                }
               }
             },
             {
@@ -141,7 +155,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:green_dye",
+          "name": "minecraft:lime_dye",
           "weight": 5,
           "functions": [
             {
@@ -151,7 +165,7 @@
                 "minecraft:lore": [
                   "[{\"translate\":\"Used to cure the plague when bandaging or crafted into potions\",\"color\":\"blue\",\"italic\": false}]"
                 ],
-                "minecraft:max_stack_size": 6,
+                "minecraft:max_stack_size": 2,
                 "minecraft:hide_additional_tooltip": {}
               }
             }
@@ -169,7 +183,7 @@
                 "minecraft:lore": [
                   "[{\"translate\":\"Used to bandage other and craft potions of healing\",\"color\":\"blue\",\"italic\": false}]"
                 ],
-                "minecraft:max_stack_size": 6,
+                "minecraft:max_stack_size": 2,
                 "minecraft:hide_additional_tooltip": {}
               }
             }

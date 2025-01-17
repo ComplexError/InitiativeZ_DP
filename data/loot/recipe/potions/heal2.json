@@ -17,13 +17,20 @@
   "result": {
     "id": "minecraft:potion",
     "components": {
-      "minecraft:item_name": "{\"translate\":\"Potion of Healing II\",\"color\":\"white\",\"italic\":false}",
+      "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Potion of Healing II\"}]",
+      "minecraft:item_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Potion of Healing II\"}]",
       "minecraft:lore": [
         "[ {\"translate\":\"Heal for 4 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"
       ],
       "minecraft:hide_additional_tooltip": {},
       "minecraft:potion_contents": {
         "potion": "minecraft:strong_healing"
+      },
+      "minecraft:use_remainder": {
+        "id": "minecraft:glass_bottle",
+        "components": {
+          "minecraft:custom_data": "{itemTrash:true}"
+        }
       }
     }
   }

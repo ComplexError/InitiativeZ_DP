@@ -1,0 +1,15 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:apple"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "loot:items/foods/apple"
+    }
+}

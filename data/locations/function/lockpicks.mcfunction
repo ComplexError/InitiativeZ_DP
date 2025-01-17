@@ -1,7 +1,7 @@
 ## ---- Location Type Check ----
-execute as @s[scores={TownID=0..}] run function locations:towns/locked_doors
-execute as @s[scores={CityID=0..}] run function locations:cities/locked_doors
-execute as @s[scores={CityID=0,TownID=0}] run function locations:poi/locked_doors
+execute as @s[scores={TownID=1..}] run function locations:towns/locked_doors
+execute as @s[scores={CityID=1..}] run function locations:cities/locked_doors
+execute as @s[scores={PoiID=1..}] run function locations:poi/locked_doors
 
 
 ## --- Sounds, Particles and Item consume ---

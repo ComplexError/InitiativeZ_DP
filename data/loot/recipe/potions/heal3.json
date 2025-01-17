@@ -42,9 +42,16 @@
             }
           ]
         },
+        "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Potion of Healing III\"}]",
         "item_name": "{\"translate\":\"Potion of Healing III\",\"color\":\"white\",\"italic\":false}",
         "lore": ["[{\"translate\":\"Heal for 8 Hearts\",\"color\":\"dark_red\",\"italic\": false}]"],
-        "minecraft:hide_additional_tooltip": {}
+        "minecraft:hide_additional_tooltip": {},
+        "minecraft:use_remainder": {
+          "id": "minecraft:glass_bottle",
+          "components": {
+            "minecraft:custom_data": "{itemTrash:true}"
+          }
+        }
       }
     }
   }

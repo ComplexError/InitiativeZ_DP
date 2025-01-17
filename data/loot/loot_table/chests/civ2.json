@@ -1,88 +1,228 @@
 {
-    "pools": [
-      {
-        "rolls": 3,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:glass_bottle",
-            "weight": 1
+  "pools": [
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 12,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Bandage\"}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Stops bleeding and heals one half heart\",\"color\":\"dark_purple\",\"italic\": true}]"
+                ],
+                "minecraft:custom_data": "{itemBandage:true}",
+                "minecraft:max_stack_size": 3,
+                "minecraft:rarity": "uncommon",
+                "minecraft:consumable": {
+                "consume_seconds": 1,
+                "animation": "crossbow",
+                "sound": {
+                  "sound_id": "item.crossbow.loading_start"
+                },
+                "has_consume_particles": false,
+                "on_consume_effects": [
+                  {
+                    "type": "minecraft:apply_effects",
+                    "effects": [
+                      {
+                        "id": "minecraft:regeneration",
+                        "amplifier": 8,
+                        "duration": 1,
+                        "ambient": false,
+                        "show_particles": false,
+                        "show_icon": false
+                      }
+                    ],
+                    "probability": 1
+                  }
+                ]
+              }
+            }
           },
           {
-            "type": "minecraft:item",
-            "name": "minecraft:green_dye",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:bowl",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:red_dye",
-            "weight": 2
+            "function": "minecraft:set_count",
+            "count": {
+              "min": 0,
+              "max": 1
+            }
           }
         ]
       },
-      {
-        "rolls": {
-          "min": 1,
-          "max": 1
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle",
+          "weight": 4
         },
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:paper",
-            "weight": 15,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:item_name": "{\"translate\":\"Bandage\"}",
-                  "minecraft:lore": [
-                    "[{\"translate\":\"Stops bleeding and heals one half heart\",\"color\":\"dark_purple\",\"italic\": true}]"
-                  ],
-                  "minecraft:custom_data": "{itemBandage:true}",
-                  "minecraft:max_stack_size": 3,
-                  "minecraft:rarity": "uncommon",
-                  "minecraft:consumable": {
-                  "consume_seconds": 1,
-                  "animation": "crossbow",
-                  "sound": {
-                    "sound_id": "item.crossbow.loading_start"
-                  },
-                  "has_consume_particles": false,
-                  "on_consume_effects": [
-                    {
-                      "type": "minecraft:apply_effects",
-                      "effects": [
-                        {
-                          "id": "minecraft:regeneration",
-                          "amplifier": 8,
-                          "duration": 1,
-                          "ambient": false,
-                          "show_particles": false,
-                          "show_icon": false
-                        }
-                      ],
-                      "probability": 1
-                    }
-                  ]
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lime_dye",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Antibiotics\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Used to cure the plague when bandaging or crafted into potions\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:max_stack_size": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_dye",
+          "weight": 9,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Healing Ointment\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Used to bandage others and craft potions of healing\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:max_stack_size": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:light_blue_dye",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Stimulant\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Used to boost speed for a brief period of time\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:max_stack_size": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:yellow_dye",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Revitalizer\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Used to increase strength for a brief period of time\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:max_stack_size": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:orange_dye",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Aloe Vera\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Grants fire immunity for a brief period of time\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:max_stack_size": 2,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "[{\"color\":\"white\",\"italic\":false,\"text\":\"Antidote\"}]",
+                "minecraft:item_name": "{\"translate\":\"Antidote\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"Cures the Plague\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:custom_data": "{itemAntidote:true}",
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:potion_contents": {
+                  "potion": "minecraft:thick",
+                  "custom_color": 13565706
                 }
               }
-            },
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bowl",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "weight": 10,
+          "functions": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 1
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "{\"translate\":\"Heal kit\",\"color\":\"white\",\"italic\":false}",
+                "minecraft:lore": [
+                  "[{\"translate\":\"WIP - coming in the future\",\"color\":\"blue\",\"italic\": false}]"
+                ],
+                "minecraft:custom_data": "{itemHealkit:true}",
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 3,
+                "minecraft:hide_additional_tooltip": {}
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 3,
+                "minecraft:hide_additional_tooltip": {}
               }
             }
           ]
         }
-        ]
-      }
-    ]
-  }
-  
+      ]
+    }
+  ]
+}
