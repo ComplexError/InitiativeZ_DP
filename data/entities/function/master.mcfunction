@@ -20,6 +20,5 @@ scoreboard players set $generator entity.n4 21
 ## -- Mechanic Cooldowns --
 
 ## ---- Master Panel ----
-#function entities:mechanics/bleeding/bleeding_particle1
 
 tellraw @a { "color": "#8c1212", "text": "- InitiativeZ: Monsters & Bosses - Active"}

@@ -42,6 +42,7 @@ schedule function master:fivetick 8s
 schedule function master:1timer 8s
 schedule function master:2timer 10s
 schedule function master:5timer 8s
+schedule function master:6timer 8s
 schedule function master:10timer 8s
 schedule function master:20timer 8s
 schedule function master:30timer 8s

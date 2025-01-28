@@ -12,12 +12,14 @@
           "name": "minecraft:iron_sword",
           "weight": 10,
           "functions": [
+            
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:smite": 2
+                    "minecraft:smite": 2,
+                    "entities:hemorrhage": 1
                   }
                 }
               }
@@ -46,7 +48,8 @@
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:smite": 3
+                    "minecraft:smite": 3,
+                    "entities:hemorrhage": 1
                   }
                 }
               }
@@ -76,7 +79,8 @@
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:smite": 2,
-                    "minecraft:knockback": 1
+                    "minecraft:knockback": 1,
+                    "entities:hemorrhage": 1
                   }
                 }
               }
@@ -106,7 +110,8 @@
                 "minecraft:enchantments": {
                   "levels": {
                     "minecraft:smite": 3,
-                    "minecraft:knockback": 1
+                    "minecraft:knockback": 1,
+                    "entities:hemorrhage": 1
                   }
                 }
               }
@@ -264,7 +269,8 @@
               "components": {
                 "minecraft:enchantments": {
                   "levels": {
-                    "minecraft:smite": 1
+                    "minecraft:smite": 1,
+                    "entities:hemorrhage": 1
                   }
                 }
               }

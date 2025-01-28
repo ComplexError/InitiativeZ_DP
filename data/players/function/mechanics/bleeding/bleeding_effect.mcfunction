@@ -13,12 +13,12 @@ execute as @s[scores={Player_Bleeding=4..7}] at @s run tellraw @s {"text":"I'm s
 execute as @s[scores={Player_Bleeding=8..}] at @s run tellraw @s {"text":"I am going to bleed out...","color":"dark_red"}
 
 ## -- Delayed Bleeding Particles --
-# 1 - 3 are large particle sets, 4 - 6 are small particle sets
-execute as @s[scores={Player_Bleeding=1..}] run schedule function players:mechanics/bleeding/bleeding_particle4 10t
-execute as @s[scores={Player_Bleeding=1..}] run schedule function players:mechanics/bleeding/bleeding_particle1 1s
+# 1 is large particle sets, 2 is small particle sets
+execute as @s[scores={Player_Bleeding=1..}] run schedule function players:mechanics/bleeding/bleeding_particle2 10t append
+execute as @s[scores={Player_Bleeding=1..}] run schedule function players:mechanics/bleeding/bleeding_particle1 1s append
 
-execute as @s[scores={Player_Bleeding=4..}] run schedule function players:mechanics/bleeding/bleeding_particle5 30t
-execute as @s[scores={Player_Bleeding=4..}] run schedule function players:mechanics/bleeding/bleeding_particle2 2s
+execute as @s[scores={Player_Bleeding=4..}] run schedule function players:mechanics/bleeding/bleeding_particle2 30t append
+execute as @s[scores={Player_Bleeding=4..}] run schedule function players:mechanics/bleeding/bleeding_particle1 2s append
 
-execute as @s[scores={Player_Bleeding=8..}] run schedule function players:mechanics/bleeding/bleeding_particle6 50t
-execute as @s[scores={Player_Bleeding=8..}] run schedule function players:mechanics/bleeding/bleeding_particle3 3s
+execute as @s[scores={Player_Bleeding=8..}] run schedule function players:mechanics/bleeding/bleeding_particle2 50t append
+execute as @s[scores={Player_Bleeding=8..}] run schedule function players:mechanics/bleeding/bleeding_particle1 3s append

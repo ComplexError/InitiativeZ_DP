@@ -13,6 +13,18 @@
             "weight": 10,
             "functions": [
               {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "entities:hemorrhage": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": false
+                }
+              },
+              {
                 "function": "minecraft:set_damage",
                 "damage": {
                   "type": "minecraft:uniform",
@@ -27,6 +39,18 @@
             "name": "minecraft:stone_sword",
             "weight": 4,
             "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "entities:hemorrhage": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": false
+                }
+              },
               {
                 "function": "minecraft:set_damage",
                 "damage": {
@@ -72,6 +96,18 @@
             "name": "minecraft:stone_axe",
             "weight": 8,
             "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "entities:hemorrhage": 1
+                    },
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": false
+                }
+              },
               {
                 "function": "minecraft:limit_count",
                 "limit": 1
