@@ -3,6 +3,7 @@
 ## -- Essential Features --
 scoreboard objectives add Player_Bleeding dummy
 scoreboard objectives add Player_Infected dummy
+scoreboard objectives add Player_BandageCD dummy
 scoreboard objectives add player.random dummy
 scoreboard objectives add Randomize trigger
 

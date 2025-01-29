@@ -15,7 +15,7 @@
           }
         },
         "item": {
-          "items": "minecraft:red_dye",
+          "items": "minecraft:lime_dye",
           "components": {
             "minecraft:max_stack_size": 2
           }
@@ -24,6 +24,6 @@
     }
   },
   "rewards": {
-    "function": "players:mechanics/bandaging/ointment"
+    "function": "players:mechanics/bandaging/antibiotic"
   }
 }

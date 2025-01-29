@@ -166,7 +166,15 @@
                   "[{\"translate\":\"Used to cure the plague when bandaging or crafted into potions\",\"color\":\"blue\",\"italic\": false}]"
                 ],
                 "minecraft:max_stack_size": 2,
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:consumable": {
+                "consume_seconds": 9999999,
+                "animation": "brush",
+                "sound": {
+                  "sound_id": "block.mud.step"
+                },
+                "has_consume_particles": false
+                }
               }
             }
           ]
@@ -184,7 +192,15 @@
                   "[{\"translate\":\"Used to bandage other and craft potions of healing\",\"color\":\"blue\",\"italic\": false}]"
                 ],
                 "minecraft:max_stack_size": 2,
-                "minecraft:hide_additional_tooltip": {}
+                "minecraft:hide_additional_tooltip": {},
+                "minecraft:consumable": {
+                "consume_seconds": 9999999,
+                "animation": "brush",
+                "sound": {
+                  "sound_id": "block.mud.step"
+                },
+                "has_consume_particles": false
+                }
               }
             }
           ]
