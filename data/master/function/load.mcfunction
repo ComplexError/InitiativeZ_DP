@@ -24,11 +24,14 @@ scoreboard objectives add Master_Death deathCount
 scoreboard objectives add Master_ZombieKills dummy
 scoreboard objectives add Master_Rewards dummy
 scoreboard objectives add Master_RNG dummy
+scoreboard objectives add Master_Looktarget dummy
 
 team add Players
 team modify Players friendlyFire false
 
 ## ---- Master Panel ----
+schedule function master:callback/internal/load 10t
+schedule function master:look_find/internal/load 10t
 schedule function ambient_hazards:master 1s
 schedule function players:master 2s
 schedule function dungeons:master 3s
@@ -36,18 +39,18 @@ schedule function locations:master 4s
 schedule function entities:master 5s
 schedule function loot:master 6s
 
-schedule function master:twotick 8s
-schedule function master:fourtick 8s
-schedule function master:fivetick 8s
-schedule function master:1timer 8s
-schedule function master:2timer 10s
-schedule function master:5timer 8s
-schedule function master:6timer 8s
-schedule function master:10timer 8s
-schedule function master:20timer 8s
-schedule function master:30timer 8s
-schedule function master:60timer 8s
-schedule function master:120timer 16s
-schedule function master:240timer 8s
+schedule function master:timers/twotick 8s
+schedule function master:timers/fourtick 8s
+schedule function master:timers/fivetick 8s
+schedule function master:timers/1timer 8s
+schedule function master:timers/2timer 10s
+schedule function master:timers/5timer 8s
+schedule function master:timers/6timer 8s
+schedule function master:timers/10timer 8s
+schedule function master:timers/20timer 8s
+schedule function master:timers/30timer 8s
+schedule function master:timers/60timer 8s
+schedule function master:timers/120timer 16s
+schedule function master:timers/240timer 8s
 
 tellraw @a { "color": "#3d8c00", "bold": true, "text": "{ InitiativeZ: Master - Active }"}

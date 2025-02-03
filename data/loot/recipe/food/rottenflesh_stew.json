@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XXX",
+    " T "
+  ],
+  "key": {
+    "X": [
+      "minecraft:rotten_flesh"
+    ],
+    "T": [
+      "minecraft:bowl"
+    ]
+  },
+  "result": {
+    "id": "minecraft:suspicious_stew",
+    "components": {
+      "minecraft:suspicious_stew_effects": [
+        {
+          "id": "minecraft:weakness",
+          "duration": 160
+        }
+      ]
+    },
+    "count": 1
+  },
+  "show_notification": false
+}

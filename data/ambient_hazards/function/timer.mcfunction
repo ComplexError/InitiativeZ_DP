@@ -19,7 +19,7 @@ execute as @a[scores={AmbientH_Wetness=1..},gamemode=adventure] at @s run functi
 ## --- Biome Checker ---
 
 ## -- Cold --
-execute as @a[scores={AmbientH_Scale=-1200..}] at @s if biome ~ ~ ~ #ambient_hazards:is_cold unless predicate ambient_hazards:underground run function ambient_hazards:coldzone/cold_1
+execute as @a[gamemode=adventure,scores={AmbientH_Scale=-1200..}] at @s if biome ~ ~ ~ #ambient_hazards:is_cold unless predicate ambient_hazards:underground run function ambient_hazards:coldzone/cold_1
 
 ## - Fireplace -
 

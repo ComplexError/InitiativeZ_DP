@@ -9,12 +9,12 @@ execute at @s as @s if predicate ambient_hazards:is_raining if predicate ambient
 execute at @s as @s if predicate ambient_hazards:thunder if predicate ambient_hazards:visible_sky run scoreboard players remove @s AmbientH_Scale 4
 
 ## -- Breathing Particles (sprinting only) --
-execute as @s at @s[predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^0.2 ^ ^ 0.1 0.1 0.1 0 2 force
-execute as @s at @s[predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^-0.2 ^ ^ 0.1 0.1 0.1 0 2 force
-execute as @s at @s[predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1.5} ^0.2 ^ ^ 0.1 0.1 0.1 1 2 force
-execute as @s at @s[predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1.5} ^-0.2 ^ ^ 0.1 0.1 0.1 1 2 force
+execute as @s at @s[predicate=ambient_hazards:high_altitude,predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^0.2 ^ ^ 0.1 0.1 0.1 0 2 force
+execute as @s at @s[predicate=ambient_hazards:high_altitude,predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^-0.2 ^ ^ 0.1 0.1 0.1 0 2 force
+execute as @s at @s[predicate=ambient_hazards:high_altitude,predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1.5} ^0.2 ^ ^ 0.1 0.1 0.1 1 2 force
+execute as @s at @s[predicate=ambient_hazards:high_altitude,predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1.5} ^-0.2 ^ ^ 0.1 0.1 0.1 1 2 force
 
-execute as @s at @s[predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^ ^ ^ 0.1 0.1 0.1 2 4 force
+execute as @s at @s[predicate=ambient_hazards:high_altitude,predicate=master:is_sprinting,predicate=!master:is_sneaking] positioned ~ ~1.5 ~ run particle dust{color:[1.000,1.000,1.000],scale:1} ^ ^ ^ 0.1 0.1 0.1 2 4 force
 
 ## --- Decrease Chilling ---
 
