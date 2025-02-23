@@ -26,6 +26,21 @@ scoreboard objectives add Master_Rewards dummy
 scoreboard objectives add Master_RNG dummy
 scoreboard objectives add Master_Looktarget dummy
 
+scoreboard objectives add entity.posx1 dummy
+scoreboard objectives add entity.posy1 dummy
+scoreboard objectives add entity.posz1 dummy
+
+scoreboard objectives add entity.posz2 dummy
+scoreboard objectives add entity.posy2 dummy
+scoreboard objectives add entity.posx2 dummy
+
+scoreboard objectives add entity.sx dummy
+scoreboard objectives add entity.sz dummy
+scoreboard objectives add entity.speed dummy
+
+scoreboard objectives add generic.const dummy
+scoreboard players set .temp generic.const -1
+
 team add Players
 team modify Players friendlyFire false
 

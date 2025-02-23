@@ -12,14 +12,6 @@ scoreboard objectives add entity.n4 dummy
 scoreboard objectives add entity.n5 dummy
 scoreboard objectives add entity.random dummy
 
-scoreboard objectives add entity.posx1 dummy
-scoreboard objectives add entity.posy1 dummy
-scoreboard objectives add entity.posz1 dummy
-
-scoreboard objectives add entity.posz2 dummy
-scoreboard objectives add entity.posy2 dummy
-scoreboard objectives add entity.posx2 dummy
-
 execute unless score $generator entity.n1 matches 0.. run scoreboard players set $generator entity.n1 1430920
 scoreboard players set $generator entity.n2 16383
 scoreboard players set $generator entity.n3 131071
