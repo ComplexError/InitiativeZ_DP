@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {"player": {"nbt": "{Health:0.0f}"}}
+    }
+  },
+  "rewards": { 
+    "function": "players:mechanics/death/on_death"
+  }
+}

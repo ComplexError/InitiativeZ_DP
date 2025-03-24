@@ -11,7 +11,7 @@
 gamerule doMobSpawning true
 gamerule mobGriefing false
 gamerule doFireTick false
-gamerule doImmediateRespawn true
+gamerule doImmediateRespawn false
 gamerule doDaylightCycle true
 gamerule keepInventory true
 gamerule naturalRegeneration false
