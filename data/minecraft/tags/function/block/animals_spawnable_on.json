@@ -4,15 +4,19 @@
         "minecraft:blackstone",
         "minecraft:calcite",
         "minecraft:clay",
+        "minecraft:deepslate",
         "minecraft:coarse_dirt",
         "minecraft:grass_block",
+        "minecraft:moss_block",
         "minecraft:netherrack",
         "minecraft:podzol",
         "minecraft:packed_mud",
+        "minecraft:short_grass",
         "minecraft:smooth_basalt",
         "minecraft:snow_block",
         "minecraft:snow",
         "minecraft:sand",
+        "minecraft:tall_grass",
         "#minecraft:terracotta"
     ]
 }

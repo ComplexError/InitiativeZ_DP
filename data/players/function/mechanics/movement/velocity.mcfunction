@@ -10,3 +10,5 @@ scoreboard players operation @s entity.posx1 = .temp entity.posx1
 scoreboard players operation @s entity.posz1 = .temp entity.posz1
 
 execute as @s run function players:mechanics/movement/speed
+
+execute as @s run function players:mechanics/movement/crawling/initiate_crawl

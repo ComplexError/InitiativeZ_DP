@@ -19,8 +19,9 @@
 execute as @s[nbt={IsBaby:1b}] run return run function entities:modify/mobs/zombies/all_of_isbaby
 
 ## -- Unique zombie field --
-execute as @s[scores={entity.random=0..4}] run function entities:modify/mobs/zombies/southern/zom1
-execute as @s[scores={entity.random=5..8}] run function entities:modify/mobs/zombies/southern/zom2
-execute as @s[scores={entity.random=9..12}] run function entities:modify/mobs/zombies/southern/zom3
-execute as @s[scores={entity.random=13..16}] run function entities:modify/mobs/zombies/southern/zom4
-execute as @s[scores={entity.random=17..20}] run function entities:modify/mobs/zombies/southern/zom5
+execute as @s[scores={entity.random=0..3}] run function entities:modify/mobs/zombies/southern/zom1
+execute as @s[scores={entity.random=4..7}] run function entities:modify/mobs/zombies/southern/zom2
+execute as @s[scores={entity.random=8..11}] run function entities:modify/mobs/zombies/southern/zom3
+execute as @s[scores={entity.random=12..15}] run function entities:modify/mobs/zombies/southern/zom4
+execute as @s[scores={entity.random=16..18}] run function entities:modify/mobs/zombies/southern/zom5
+execute as @s[scores={entity.random=19..20}] run function entities:modify/mobs/zombies/southern/dasher

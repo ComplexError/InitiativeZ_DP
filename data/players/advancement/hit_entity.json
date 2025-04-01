@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "players:mechanics/stealth/unball"
+  }
+}

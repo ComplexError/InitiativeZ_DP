@@ -9,6 +9,9 @@
 
 ## -- Essential Features --
 gamerule doMobSpawning true
+gamerule doInsomnia false
+gamerule doTraderSpawning false
+gamerule universalAnger true
 gamerule mobGriefing false
 gamerule doFireTick false
 gamerule doImmediateRespawn false

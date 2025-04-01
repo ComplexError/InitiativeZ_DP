@@ -15,4 +15,4 @@ tag @e remove find_looking.in_filter
 function master:look_find/internal/filter/iteration
 
 #execute as @e[tag=find_looking.result] run effect give @s glowing 1 1 true
-execute as @e[tag=find_looking.result] run scoreboard players set @s Master_Looktarget 2
+execute as @e[type=player,tag=find_looking.result] run scoreboard players set @s Master_Looktarget 2

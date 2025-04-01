@@ -10,7 +10,7 @@
 #execute as @s[type=minecraft:wither_skeleton,tag=!entity.parsed] run function entities:modify/mobs/wither_skeleton/all_of
 
 ## -- Husk --
-#execute as @s[type=minecraft:husk,tag=!entity.parsed] run function entities:modify/mobs/husk/all_of
+execute as @s[type=minecraft:husk,tag=!entity.parsed] run function entities:modify/mobs/husk/all_of
 
 ## -- Zombie --
 execute as @s[type=minecraft:zombie,tag=!entity.parsed] run function entities:modify/mobs/zombies/all_of

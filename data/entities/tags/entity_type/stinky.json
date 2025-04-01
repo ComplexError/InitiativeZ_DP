@@ -3,10 +3,8 @@
   "values": [
     "minecraft:bat",
     "minecraft:witch",
-    "minecraft:creeper",
     "minecraft:enderman",
     "minecraft:spider",
-    "minecraft:slime",
-    "minecraft:skeleton"
+    "minecraft:slime"
   ]
 }

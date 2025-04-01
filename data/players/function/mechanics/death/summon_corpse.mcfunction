@@ -3,6 +3,7 @@ execute align xyz as @s run data modify storage players:zombie Inventory insert 
 
 ## --- Summon the zombie to replace dead player ---
 execute at @s align xyz run summon zombie ~ ~ ~ {PersistenceRequired:1b,CanPickUpLoot:1b,CanBreakDoors:1b,Tags:["PlayerZombie"],Passengers:[{id:"minecraft:marker",Tags:["DeadInventory"]}]}
+scoreboard players set @n[tag=PlayerZombie] entity.random 10
 data modify entity @n[tag=PlayerZombie] ArmorItems[0] set from storage players:zombie Inventory[{Slot:100b}]
 data modify entity @n[tag=PlayerZombie] ArmorItems[1] set from storage players:zombie Inventory[{Slot:101b}]
 data modify entity @n[tag=PlayerZombie] ArmorItems[2] set from storage players:zombie Inventory[{Slot:102b}]

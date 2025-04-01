@@ -17,6 +17,8 @@ scoreboard players set $generator entity.n2 16383
 scoreboard players set $generator entity.n3 131071
 scoreboard players set $generator entity.n4 21
 
+scoreboard objectives add entity.specialCD dummy
+
 ## -- Mechanic Cooldowns --
 
 ## ---- Master Panel ----
